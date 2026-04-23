@@ -1,33 +1,19 @@
-# University Projects
+# Oficina de Programação
 
-This repository contains projects developed throughout my college degree.
+Projects developed during the **Oficina de Programação** subject.
 
 ## Structure
 
-Each subject is organized in its own **branch**. Inside each branch you will find all the projects and assignments related to that subject.
+Each folder in this branch corresponds to a project made during the subject.
 
 ```
-main         → general information (this README)
-├── branch/subject-name-1   → projects from subject 1
-├── branch/subject-name-2   → projects from subject 2
+oficina-de-programacao/
+├── project-1/   → first project
+├── project-2/   → second project
 └── ...
-```
-
-## How to navigate
-
-1. Check the list of branches to find a specific subject.
-2. Switch to the desired branch to access its projects.
-
-```bash
-# List all branches
-git branch -a
-
-# Switch to a subject branch
-git checkout <branch-name>
 ```
 
 ## About
 
 - **Author:** Paludio
-- **Degree:** Software Enginner
 - **Repository:** [github.com/Paludio/university](https://github.com/Paludio/university)
