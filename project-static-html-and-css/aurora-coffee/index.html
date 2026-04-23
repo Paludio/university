@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Coffee | Loja Virtual</title>
+    <meta
+      name="description"
+      content="Aurora Coffee, loja virtual de cafe especial com blends, kits e acessorios para diferentes rituais de preparo."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape--one" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape--two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Aurora Coffee</a>
+        <nav class="nav" aria-label="Navegacao principal">
+          <a href="index.html" class="is-active">Home</a>
+          <a href="pages/catalogo.html">Colecao</a>
+          <a href="pages/produto.html">Destaque</a>
+          <a href="pages/cadastro.html">Clube Aurora</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--split container">
+        <div class="hero__content">
+          <div>
+            <p class="hero__tag">Cafe especial selecionado</p>
+            <h1 class="hero__title">Graos, kits e acessorios para transformar sua rotina em ritual.</h1>
+          </div>
+          <p class="hero__subtitle">
+            Descubra blends autorais, metodos de preparo e curadorias sazonais pensadas
+            para quem valoriza aroma, frescor e uma experiencia completa em cada xicara.
+          </p>
+          <div class="hero__actions">
+            <a class="hero__cta" href="pages/catalogo.html">Conhecer colecao</a>
+            <a class="ghost-link" href="pages/cadastro.html">Entrar no clube</a>
+          </div>
+        </div>
+
+        <div class="hero__panel card card--highlight">
+          <img
+            class="hero__image"
+            src="imagens/fachada.png"
+            alt="Ilustracao da vitrine da Aurora Coffee"
+          />
+          <form class="login-box" action="pages/catalogo.html">
+            <h2>Acesse sua conta Aurora</h2>
+            <p>Entre para acompanhar pedidos, favoritos e novidades da torra da semana.</p>
+            <label for="email-login">E-mail</label>
+            <input id="email-login" type="email" placeholder="seuemail@exemplo.com" autocomplete="email" required />
+            <label for="senha-login">Senha</label>
+            <input id="senha-login" type="password" placeholder="Digite sua senha" autocomplete="current-password" required />
+            <button type="submit">Entrar e explorar</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="container section-grid">
+        <article class="card info-card">
+          <h2>Curadoria da casa</h2>
+          <p>
+            Selecao de cafes com perfis sensoriais que vao do chocolate intenso a notas citricas e florais.
+          </p>
+        </article>
+        <article class="card info-card">
+          <h2>Rituais de preparo</h2>
+          <p>
+            Encontre moedores, prensas e kits completos para montar seu canto do cafe com mais precisao.
+          </p>
+        </article>
+        <article class="card info-card">
+          <h2>Clube Aurora</h2>
+          <p>
+            Cadastre-se para receber lancamentos, ofertas sazonais e conteudos exclusivos sobre preparo.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>Aurora Coffee, uma vitrine digital para quem aprecia cafe especial em cada detalhe.</p>
+    </footer>
+  </body>
+</html>
